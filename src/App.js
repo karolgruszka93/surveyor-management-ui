@@ -20,7 +20,15 @@ const Container = styled.div`
     padding: 0.9em;
     border-radius: 0.9em;
     margin-top: 0.9em;
-    text-align: center;    
+    text-align: center;  
+    @media (max-width: 800px) {
+        display: table;
+        width: 100%;
+    }
+    @media (max-width: 420px) {
+        display: inline-block;
+        max-width: 380px;
+    }
     `
 
 const ManagerRoute = ({ component: Component, ...rest }) => (

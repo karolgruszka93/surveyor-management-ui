@@ -14,6 +14,15 @@ const NavContainer = styled.div`
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    @media (max-width: 800px) {
+        position: static;
+        display: table;
+        width: 100%;
+    }
+    @media (max-width: 420px) {
+        display: inline-block;
+        max-width: 380px;
+    }
     `
 
 const LogoutButton = styled(Button)`

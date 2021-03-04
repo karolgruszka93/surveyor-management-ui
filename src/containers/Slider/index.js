@@ -7,8 +7,7 @@ import img3 from './img3.jpg';
 
 const Animated = styled(animated.div)`
     position: absolute;
-    width: 80%;
-    max-width: 75em;
+    width: 100%;
     height: 14.5em;
     background-size: cover;
     background-position: center;
@@ -17,7 +16,11 @@ const Animated = styled(animated.div)`
     `
 
 const Container = styled.div`
+    position:relative;
     height: 14.5em;
+    @media (max-width: 800px) {
+        display: none;
+    }
     `
 
 const slides = [

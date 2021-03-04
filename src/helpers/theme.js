@@ -28,7 +28,7 @@ export const Button = styled.div`
 
 export const NavButton = styled(Button)`
     margin: 0.5em 0.2em 0.5em 0.2em;
-    height: 3.5em;
+    height: 4.7em;
     width: 9.1em;
     border: 0.2em solid ${props => props.color || '#2b2e39'};
     border-radius: 0.6em;

@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\containers",
-    "\\src\\containers\\Employee",
     "\\src\\containers\\Employee\\SideNavigation",
-    "\\src\\containers\\Manager\\Main"
+    "\\src\\containers\\Employee\\Task"
   ],
-  "SelectedNode": "\\src\\containers\\Employee\\SideNavigation\\index.js",
+  "SelectedNode": "\\src\\containers",
   "PreviewInSolutionExplorer": false
 }

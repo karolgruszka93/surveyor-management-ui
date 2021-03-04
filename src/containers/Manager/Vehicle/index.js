@@ -14,6 +14,14 @@ const Container = styled.div`
     border-style: solid;
     border-color: #28DD5E;
     border-width: 0.09em;
+    @media (max-width: 800px) {
+        display: table;
+        width: 100%;
+    }
+    @media (max-width: 420px) {
+        display: inline-block;
+        max-width: 380px;
+    }
     `
 
 const Vehicle = () => {
@@ -179,7 +187,7 @@ const Vehicle = () => {
                         backgroundColor: '#2b2e39',
                         color: '#FFFFFF',
                     }}
-                    title="Sprzęt"
+                    title="Pojazd"
                     columns={[
                         { title: 'Marka', field: 'mark' },
                         { title: 'Model', field: 'model' },

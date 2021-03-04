@@ -14,6 +14,14 @@ const Container = styled.div`
     border-width: 0.09em;
     display: grid;
     grid-template-columns: 40% 60%;
+    @media (max-width: 800px) {
+        display: table;
+        width: 100%;
+    }
+    @media (max-width: 420px) {
+        display: inline-block;
+        max-width: 380px;
+    }
     `
 
 const CalendarContainer = styled.div`

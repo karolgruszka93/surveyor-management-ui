@@ -8,11 +8,17 @@ import Task from '../Task/index';
 
 const DayTitle = styled.div`
     font-size: 3em;
+    @media (max-width: 800px) {
+        display: none;
+    }
     `
 
 const MonthTitle = styled.div`
     margin-top: -0.5em;
     font-size: 1.5em;
+    @media (max-width: 800px) {
+        display: none;
+    }
     `
 
 const months = ['styczeń', 'luty', 'marzec', 'kwiecień', 'maj', 'czerwiec', 'lipiec',

@@ -8,6 +8,14 @@ import { HorizontalLine } from '../../helpers/theme.js'
 
 const Container = styled.div`
     display: flex;
+    @media (max-width: 800px) {
+        display: table;
+        width: 100%;
+    }
+    @media (max-width: 420px) {
+        display: inline-block;
+        max-width: 380px;
+    }
     `
 
 const Employee = () => {
