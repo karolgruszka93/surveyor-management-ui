@@ -79,14 +79,14 @@ const Register = () => {
                 <Input name='firstName'
                     ref={register({ required: true, maxLength: 25, pattern: /^[a-zA-Zą-żĄ-Ż ]+$/ })}
                     color='#A9A9A9'
-                    width='10rem'
+                    width='10.2rem'
                     height='2rem'
                     autoComplete='new-password'
                     placeholder='Imię' />
                 <Input name='lastName'
                     ref={register({ required: true, maxLength: 25, pattern: /^[a-zA-Zą-żĄ-Ż ]+$/ })}
                     color='#A9A9A9'
-                    width='10rem'
+                    width='10.2rem'
                     height='2rem'
                     autoComplete='new-password'
                     placeholder='Nazwisko'

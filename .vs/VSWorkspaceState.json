@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\containers\\Employee\\SideNavigation",
-    "\\src\\containers\\Employee\\Task"
+    "\\src"
   ],
-  "SelectedNode": "\\src\\containers",
   "PreviewInSolutionExplorer": false
 }

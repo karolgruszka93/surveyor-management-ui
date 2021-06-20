@@ -12,8 +12,9 @@ import Attachment from '../../Attachment';
 import Comment from '../../Comment';
 
 const EmptyData = styled.div`
-    color: #82848a;
-    margin-top: 1.5rem;
+    color: #52545c;
+    text-align: center;
+    margin-bottom: 0.8em;
     `
 
 const ListDetailDescription = styled.div`
@@ -112,7 +113,7 @@ const Task = () => {
     const DataList = (props) => {
         if (props.data.length === 0) {
             return (
-                <EmptyData>Brak danych</EmptyData>
+                <EmptyData><ListDetailDescription>{props.description}</ListDetailDescription>Brak danych</EmptyData>
             );
         }
         else {
