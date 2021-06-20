@@ -22,8 +22,8 @@ Application was created using:
 - material-table
 - and others...
 ## Screenshots <a name="screenshots"></a>
-<img src="gitimg/home.png">
-<img src="gitimg/img1.png">
-<img src="gitimg/img2.png">
-<img src="gitimg/img3.png">
-<img src="gitimg/img4.png">
+<img src="gitimg/home.png" width="700px">
+<img src="gitimg/img1.png" width="700px">
+<img src="gitimg/img2.png" width="700px">
+<img src="gitimg/img3.png" width="700px">
+<img src="gitimg/img4.png" width="700px">
